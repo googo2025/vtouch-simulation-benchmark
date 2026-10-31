@@ -1,0 +1,27 @@
+{
+  "file": "paper-three-geometries.gif",
+  "bytes": 1348542,
+  "sha256": "8c7eadd38bf23519e9b160870a51798c816a36c0e5a0bce5ea48288f7ad3f404",
+  "frames": 24,
+  "duration_seconds": 2.64,
+  "dimensions": [
+    960,
+    600
+  ],
+  "source_morphologies": [
+    "round_16px_pitch1p8",
+    "paired_16px_pitch1p8",
+    "cross_lines_16px_pitch1p8"
+  ],
+  "source_raw_sha256": [
+    "724073f50fae7ac740ebe444e821c7a9843436279764d4ce9dd5bc3865693c20",
+    "1c953ff5f3d8b0ea46849c342dca0434be969d8f6d349e5a1c8cd24990ac4480",
+    "9ebd436c28f1255b1a4e339672ceb4632110ad70713c4b4ff4ca1f70afab9fc5"
+  ],
+  "display_render_only": true,
+  "new_scientific_simulation_training_inference": false,
+  "workers": 3,
+  "wall_seconds": 2.0035595720401034,
+  "children_CPU_seconds": 4.744104,
+  "children_peak_RSS_KiB": 48484
+}

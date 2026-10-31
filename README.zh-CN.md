@@ -8,7 +8,7 @@
 
 | 入口 | 内容 |
 |---|---|
-| A1 形貌与可观测性 | 15种形貌、可旋转点云、原高度图、11种精确匹配相机画面、原保存区域—深度—条件比较。 |
+| A1 形貌与可观测性 | 15种形貌的保存结果、3种简易可旋转点云、原高度图和匹配相机画面、原保存区域—深度—条件比较。 |
 | A2 按压三维与图像变化 | 已有V2四个代表区域、原参考、两种照明方向、1280×720原光学数组、同位置放大与差分。该共享示例与A的15形貌定量库分别注明来源。 |
 | B1 输入与识别结果 | 固定种子1701、两种光照、原始与嵌套阶段共12组保存模型记录，48张原输入图及每条件64条保存预测。 |
 | B2 照明与基线比较 | 四种照明方向的完整16行区域汇总和原始完整条件CSV。 |
@@ -20,3 +20,11 @@ A负责仿真、复核与形貌选型；B负责分组评价与识别基线；C�
 README.md为默认英文说明。docs/是可独立运行的中英文静态站点；paper-a/与paper-b/分别索引论文、结果和代码；provenance/保存来源和导出指纹；UPLOAD.md给出上传及Pages设置步骤。
 
 本资料包的目标仓库为 googo2025/vtouch-simulation-benchmark；在线部署状态以该仓库与GitHub Pages实际结果为准。身份信息由作者自行补充。A的原始端到端仿真生产源码仍在公开完整性待办中；已收入的六份历史脚本属于B。正文修订稿另在私有审阅入口保存。
+
+## 直观预览
+
+[![三个原始结构的旋转动图](docs/assets/paper-three-geometries.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/zh/)
+
+**点击旋转简易三维：** [圆端](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=round#1) · [成对尖端](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=paired#1) · [交叉线](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=cross_lines#1)
+
+[腾讯云完整ABC平台](https://115.159.42.27:8088/vtouch/zh/)。动图只旋转已有三维并显示原保存高度图，便于直接看清做过的结构。

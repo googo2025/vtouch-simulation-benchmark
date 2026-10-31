@@ -1,1 +1,78 @@
-{"status":"finite export selection before processing","new_simulation_training_inference_features":false,"A1":{"cases":["chevron_16px_pitch1p8","coded_lines_16px_pitch1p8","cone_16px_pitch1p8","cross_16px_pitch1p8","cross_lines_16px_pitch1p8","latitude_line_16px_pitch1p8","meridian_line_16px_pitch1p8","paired_16px_pitch1p8","pit_16px_pitch1p8","raised_ring_16px_pitch1p8","recessed_ring_16px_pitch1p8","rib_16px_pitch1p8","round_16px_pitch1p8","smooth_08px_pitch1p35","wedge_16px_pitch1p8"],"geometry_display_stride":4,"camera_channels":[[5,1]]},"A2":{"case_indices":[82,83,89,95,101],"mesh_display_stride":6,"LED":4,"tilts_deg":[0,60],"image_shape":[720,1280],"scope":"existing shared V2 illustration, separate from A fifteen-morphology quantitative results"},"B1":{"stages":["original","nested"],"seed":1701,"tilts_deg":[0,60],"saved_input_frame_index":0,"prediction_realizations_per_condition":64,"physical_positions":12},"B2":{"all_saved_summary_rows":16,"full_condition_CSVs_retained":true},"resource_boundary":{"export_workers":3,"own_memory_GiB_max":4}}
+{
+  "status": "finite export selection before processing",
+  "new_simulation_training_inference_features": false,
+  "A1": {
+    "cases": [
+      "chevron_16px_pitch1p8",
+      "coded_lines_16px_pitch1p8",
+      "cone_16px_pitch1p8",
+      "cross_16px_pitch1p8",
+      "cross_lines_16px_pitch1p8",
+      "latitude_line_16px_pitch1p8",
+      "meridian_line_16px_pitch1p8",
+      "paired_16px_pitch1p8",
+      "pit_16px_pitch1p8",
+      "raised_ring_16px_pitch1p8",
+      "recessed_ring_16px_pitch1p8",
+      "rib_16px_pitch1p8",
+      "round_16px_pitch1p8",
+      "smooth_08px_pitch1p35",
+      "wedge_16px_pitch1p8"
+    ],
+    "geometry_display_stride": 4,
+    "camera_channels": [
+      [
+        5,
+        1
+      ]
+    ],
+    "interactive_display_examples": [
+      "round_16px_pitch1p8",
+      "paired_16px_pitch1p8",
+      "cross_lines_16px_pitch1p8"
+    ],
+    "full_fifteen_morphology_saved_tables_retained": true
+  },
+  "A2": {
+    "case_indices": [
+      82,
+      83,
+      89,
+      95,
+      101
+    ],
+    "mesh_display_stride": 6,
+    "LED": 4,
+    "tilts_deg": [
+      0,
+      60
+    ],
+    "image_shape": [
+      720,
+      1280
+    ],
+    "scope": "existing shared V2 illustration, separate from A fifteen-morphology quantitative results"
+  },
+  "B1": {
+    "stages": [
+      "original",
+      "nested"
+    ],
+    "seed": 1701,
+    "tilts_deg": [
+      0,
+      60
+    ],
+    "saved_input_frame_index": 0,
+    "prediction_realizations_per_condition": 64,
+    "physical_positions": 12
+  },
+  "B2": {
+    "all_saved_summary_rows": 16,
+    "full_condition_CSVs_retained": true
+  },
+  "resource_boundary": {
+    "export_workers": 3,
+    "own_memory_GiB_max": 4
+  }
+}

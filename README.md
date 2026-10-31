@@ -10,11 +10,19 @@ A compact, self-contained interactive companion for two linked studies on hollow
 
 The GitHub Pages copy is in **docs/**. It uses relative asset paths and runs without the research server, external CDNs, or model execution. The Tencent entry retains the larger ABC collection.
 
+## Quick visual preview
+
+[![Three rotating original surface designs](docs/assets/paper-three-geometries.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/en/)
+
+**Rotate a simple 3D example:** [Round end](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=round#1) · [Paired tips](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=paired#1) · [Cross lines](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=cross_lines#1)
+
+[Complete ABC collection on Tencent Cloud](https://115.159.42.27:8088/vtouch/). The GIF is a rotating view of existing saved geometry, with the original saved height maps.
+
 ## Four focused displays
 
 | Entry | What can be explored |
 |---|---|
-| A1 — Morphology and observability | Fifteen surface morphologies, rotatable sampled geometry, original height maps, eleven exact camera-matched examples, and saved region–depth–condition comparisons. |
+| A1 — Morphology and observability | Three rotatable examples from fifteen surface morphologies, sampled geometry, original height maps, eleven exact camera-matched examples, and saved region–depth–condition comparisons. |
 | A2 — Loaded surface and optical change | Four existing V2 representative loaded states, their exact saved reference, two illumination directions, rotatable original-coordinate point displays, full 1280×720 optical arrays, and aligned crops/differences. |
 | B1 — Saved inputs and predictions | Twelve original/nested saved runs: one fixed seed, two tilts, three held-location groups per stage; 48 original input images and all 64 saved predictions per condition. |
 | B2 — Illumination and baselines | The complete saved 16-row regional summary across four illumination directions, with metric selection and the original full-condition CSVs. |
