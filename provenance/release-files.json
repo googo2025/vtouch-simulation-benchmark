@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-31-paper-companion-review-v1",
+  "version": "2026-10-31-press-and-manuscripts-review-v2",
   "files": [
     {
       "path": ".gitignore",
@@ -13,18 +13,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 5527,
-      "sha256": "24c1ac7f6e353cfc9ad9442fd745841718cc47a867e371441dd3913160e535d9"
+      "bytes": 6942,
+      "sha256": "579d1962d3c45912e3500abc580ba7abb07a2c7e88af2c389fa09c31a7d8677f"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 2725,
-      "sha256": "1a6e1226ab47f4fc7c5554d2a9535a30da5327904579a4f88b3bdde871a46df2"
+      "bytes": 3953,
+      "sha256": "b7bd9eb0b67f114b037adb0eaa4d19d63a2cad23057db1fb6546a24815f260e9"
     },
     {
       "path": "RELEASE_CHECKLIST.md",
-      "bytes": 1099,
-      "sha256": "a9c7241d0f7520541cf3c49d1851afcab72dda5e11b3f237297cde971a97dd8f"
+      "bytes": 1135,
+      "sha256": "9f2178f52097474f630c587507452fd45cfef7e3479eceefc0a9876639c538d3"
     },
     {
       "path": "UPLOAD.md",
@@ -33,8 +33,8 @@
     },
     {
       "path": "VERSION.txt",
-      "bytes": 37,
-      "sha256": "30120a7273bcd0899c69edab4965627e882a23120d1cb1e35551c80fb2c6aa5e"
+      "bytes": 43,
+      "sha256": "c86583e32f689ec861145ab8b33ab6feb2739ecc1e66e0abb6a986ff11dd3e8e"
     },
     {
       "path": "code/historical/multimarker.py",
@@ -100,6 +100,16 @@
       "path": "docs/assets/paper-three-geometries.gif",
       "bytes": 1348542,
       "sha256": "8c7eadd38bf23519e9b160870a51798c816a36c0e5a0bce5ea48288f7ad3f404"
+    },
+    {
+      "path": "docs/assets/press-reference-lighting-en.gif",
+      "bytes": 681533,
+      "sha256": "c0303524aa02bc59ed6a4b1d2a8fe3a9880ba59762a16c978b336d080ff941e8"
+    },
+    {
+      "path": "docs/assets/press-reference-lighting-zh.gif",
+      "bytes": 688460,
+      "sha256": "772944e7bbd6464bb728268834937cccf911bfa739f5cb05cff1292f1f6ec80f"
     },
     {
       "path": "docs/baselines.js",
@@ -712,9 +722,49 @@
       "sha256": "ad3a4874080c8b5016d9b7013935aa6811f0db2b6e7129b3930518af0d764657"
     },
     {
+      "path": "docs/downloads/papers/PaperA_Revised_highlighted.docx",
+      "bytes": 1175784,
+      "sha256": "c4f05b113bdf790671a96267b7255513ee0798310f4676fccb2da15957eecca4"
+    },
+    {
+      "path": "docs/downloads/papers/PaperA_Revised_highlighted.pdf",
+      "bytes": 1016648,
+      "sha256": "2ffa75e561cb8a83a8edab10e1474dae99b676477bf9bbaf0c62afbbdda8165f"
+    },
+    {
+      "path": "docs/downloads/papers/PaperA_Supplementary_material.docx",
+      "bytes": 212786,
+      "sha256": "a420fa142135d072ad1597d98e0eb3da6d6168973d40998bdca673573ada3514"
+    },
+    {
+      "path": "docs/downloads/papers/PaperA_Supplementary_material.pdf",
+      "bytes": 409586,
+      "sha256": "653ee42321a8ee432d0bf955eff9fd9de21ad90390aca1a5417325c7614d4132"
+    },
+    {
+      "path": "docs/downloads/papers/PaperB_Revised_highlighted.docx",
+      "bytes": 543986,
+      "sha256": "803d97b240dc28c743e4bb5a66daea9ce43ad85062e19e275adf1d36cf4eb3fc"
+    },
+    {
+      "path": "docs/downloads/papers/PaperB_Revised_highlighted.pdf",
+      "bytes": 650573,
+      "sha256": "da6cbce550a3b68946da04929793143eca058e072f93cccf3050cd2d5b5dd461"
+    },
+    {
+      "path": "docs/downloads/papers/PaperB_Supplementary_methods.docx",
+      "bytes": 42262,
+      "sha256": "cceb501c5c4e0a182335f716d90c28e88922d6a9279928abf109374f9f010399"
+    },
+    {
+      "path": "docs/downloads/papers/PaperB_Supplementary_methods.pdf",
+      "bytes": 67688,
+      "sha256": "2676fecfa6ab7e8cf2de95d42c354783a5d352ebcf8910b9336fc49981ecb0cc"
+    },
+    {
       "path": "docs/en/index.html",
-      "bytes": 3782,
-      "sha256": "e4a29a6cd8efb78d23f66c2c1252be7a7161c001e6b297725f73e73151b4f0ce"
+      "bytes": 4627,
+      "sha256": "cbd37bf015405fc94adc585dfc71701cd711c5c4e1ded3af69fd76bdfd62f417"
     },
     {
       "path": "docs/index.html",
@@ -773,13 +823,13 @@
     },
     {
       "path": "docs/zh/index.html",
-      "bytes": 3654,
-      "sha256": "4d10c9fb6bc071675daa82a13009ded9a3974ae864f0139606c676a3fed014de"
+      "bytes": 4483,
+      "sha256": "c69ac9ebca551d122992f8fd686cce7e3620ea9f8e50bcbb474822b89d10c516"
     },
     {
       "path": "paper-a/README.md",
-      "bytes": 841,
-      "sha256": "4efc412acb55c73ec11dee6c5a8cbbf13e0e84fc7febda2bdaec399b45580876"
+      "bytes": 888,
+      "sha256": "eadb61cc161a0c4062fc2388d09d3b1a0c96231978b5eb315a4072378e1dac6b"
     },
     {
       "path": "paper-a/citation/README.md",
@@ -798,13 +848,13 @@
     },
     {
       "path": "paper-a/manuscript/README.md",
-      "bytes": 191,
-      "sha256": "19f53570011848dac0b1a8b9bb0ff992c378fbf20ff8acfe0bf8734757d80208"
+      "bytes": 464,
+      "sha256": "2464929160e3cd9ab320eaf139f3691803807fb3916f799a8fdcaabec1e2e80b"
     },
     {
       "path": "paper-b/README.md",
-      "bytes": 1225,
-      "sha256": "db7b3c7e1648a7792a9ac09a05415e763129cd36682c692dd56a6d21e65d012a"
+      "bytes": 1272,
+      "sha256": "1f71d566eda2edec253e978cf13d7161809769efd7a253f37c5c49aa2fd9992d"
     },
     {
       "path": "paper-b/citation/README.md",
@@ -823,8 +873,8 @@
     },
     {
       "path": "paper-b/manuscript/README.md",
-      "bytes": 191,
-      "sha256": "ea5f88d5933b1ac7adf272df9a44195c5ea2feabcd00c27c90f9de424a2878dd"
+      "bytes": 462,
+      "sha256": "ae66e37f604a5ec846dececcb2122de59025ce8263b1ae1cb87ab08867af8b1a"
     },
     {
       "path": "provenance/export-runtime.json",
@@ -835,6 +885,21 @@
       "path": "provenance/exported-assets.json",
       "bytes": 50856,
       "sha256": "f5097fafb677dcaa0b2fc51489ad89c938a1b8edebd5695a5e23d2651f4126a7"
+    },
+    {
+      "path": "provenance/manuscript-downloads.json",
+      "bytes": 2169,
+      "sha256": "a3c49598cfcdec70ee45ede707950cb75529be039c7012477db5fbf51c682fa7"
+    },
+    {
+      "path": "provenance/press-preview-source-map.json",
+      "bytes": 6625,
+      "sha256": "2b2af08a0ddb0f1c0e6832460777e5c4be72ab0c72442eabeed9ac23e42d8188"
+    },
+    {
+      "path": "provenance/press-reference-lighting.json",
+      "bytes": 5774,
+      "sha256": "07b04c76b76f5f42adb59a1746789497b0a1b7117780f5f8ca798855559fbe4b"
     },
     {
       "path": "provenance/rotation-preview.json",
@@ -849,7 +914,12 @@
     {
       "path": "provenance/validation.json",
       "bytes": 349,
-      "sha256": "f37bfe20206875d79e96ac81121765be70f1fb1cb12a4c125138cba580581f00"
+      "sha256": "b20c7acf621c21548baa92217d751b7568144a1ef10769daa31ffbc281fa5a2c"
+    },
+    {
+      "path": "tools/render_press_comparison.py",
+      "bytes": 10040,
+      "sha256": "4b7b1506a2d57764308311a533ee942ce08479ec34e955e7edb9d5cce712c850"
     },
     {
       "path": "tools/verify_release.py",
@@ -859,5 +929,5 @@
   ],
   "data_release_scope": "selected paper display and existing result tables",
   "repository": "googo2025/vtouch-simulation-benchmark",
-  "file_count_excluding_this_manifest": 171
+  "file_count_excluding_this_manifest": 185
 }

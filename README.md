@@ -12,11 +12,23 @@ The GitHub Pages copy is in **docs/**. It uses relative asset paths and runs wit
 
 ## Quick visual preview
 
-[![Three rotating original surface designs](docs/assets/paper-three-geometries.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/en/)
+[![Unpressed, pressed, aligned color difference and lighting comparison](docs/assets/press-reference-lighting-en.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/en/)
+
+The animation compares paired existing reference and pressed states in two regions and four LED4 directions (0°, 12°, 34°, 60°). It preserves the native camera projection, shows the same 160×160-pixel close-up in each row, and uses one signed optical-difference color scale across all frames. Observation images share a fixed gamma of 0.45; raw values are used for the difference. Grey/cyan 3D overlays use original coordinates with no displacement amplification.
+
 
 **Rotate a simple 3D example:** [Round end](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=round#1) · [Paired tips](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=paired#1) · [Cross lines](https://googo2025.github.io/vtouch-simulation-benchmark/en/?shape=cross_lines#1)
 
-[Complete ABC collection on Tencent Cloud](https://115.159.42.27:8088/vtouch/). The GIF is a rotating view of existing saved geometry, with the original saved height maps.
+[Complete ABC collection on Tencent Cloud](https://115.159.42.27:8088/vtouch/). The static geometry-only rotation remains available in docs/assets/paper-three-geometries.gif.
+
+## Revised manuscripts and supplements
+
+| Paper | Highlighted revision | Supplement |
+|---|---|---|
+| A | [PDF](docs/downloads/papers/PaperA_Revised_highlighted.pdf) · [Word](docs/downloads/papers/PaperA_Revised_highlighted.docx) | [PDF](docs/downloads/papers/PaperA_Supplementary_material.pdf) · [Word](docs/downloads/papers/PaperA_Supplementary_material.docx) |
+| B | [PDF](docs/downloads/papers/PaperB_Revised_highlighted.pdf) · [Word](docs/downloads/papers/PaperB_Revised_highlighted.docx) | [PDF](docs/downloads/papers/PaperB_Supplementary_methods.pdf) · [Word](docs/downloads/papers/PaperB_Supplementary_methods.docx) |
+
+These are revised author drafts; author details remain for completion by the authors.
 
 ## Four focused displays
 
@@ -67,6 +79,8 @@ Then open http://localhost:8000/. English is the default, with a Chinese switch.
 
 ## Publication status
 
-This is a **prepared review package**. The manuscript drafts, author identities, final citation and licensing decisions are handled separately. Historical scripts are preserved rather than silently rewritten into a new simulator. Paper A's exact end-to-end simulator producer is still a release-completeness item; the six included historical scripts belong to B.
+This is a **prepared review package**. Highlighted manuscript and supplementary revision drafts are linked above. Author details, final citation and licensing decisions remain to be completed. Historical scripts are preserved rather than silently rewritten into a new simulator. Paper A's exact end-to-end simulator producer is still a release-completeness item; the six included historical scripts belong to B.
 
 The scientific source datasets and original results remain unchanged.
+
+Display renderer: tools/render_press_comparison.py. Exact public source-export links and hashes: provenance/press-preview-source-map.json.

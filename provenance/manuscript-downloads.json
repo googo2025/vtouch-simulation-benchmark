@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "file": "PaperA_Revised_highlighted.pdf",
+      "bytes": 1016648,
+      "sha256": "2ffa75e561cb8a83a8edab10e1474dae99b676477bf9bbaf0c62afbbdda8165f",
+      "scope": "highlighted author revision draft",
+      "pages": 14
+    },
+    {
+      "file": "PaperA_Revised_highlighted.docx",
+      "bytes": 1175784,
+      "sha256": "c4f05b113bdf790671a96267b7255513ee0798310f4676fccb2da15957eecca4",
+      "scope": "highlighted author revision draft",
+      "yellow_highlight_elements": 102
+    },
+    {
+      "file": "PaperB_Revised_highlighted.pdf",
+      "bytes": 650573,
+      "sha256": "da6cbce550a3b68946da04929793143eca058e072f93cccf3050cd2d5b5dd461",
+      "scope": "highlighted author revision draft",
+      "pages": 10
+    },
+    {
+      "file": "PaperB_Revised_highlighted.docx",
+      "bytes": 543986,
+      "sha256": "803d97b240dc28c743e4bb5a66daea9ce43ad85062e19e275adf1d36cf4eb3fc",
+      "scope": "highlighted author revision draft",
+      "yellow_highlight_elements": 83
+    },
+    {
+      "file": "PaperA_Supplementary_material.pdf",
+      "bytes": 409586,
+      "sha256": "653ee42321a8ee432d0bf955eff9fd9de21ad90390aca1a5417325c7614d4132",
+      "scope": "supplementary material for author revision",
+      "pages": 2
+    },
+    {
+      "file": "PaperA_Supplementary_material.docx",
+      "bytes": 212786,
+      "sha256": "a420fa142135d072ad1597d98e0eb3da6d6168973d40998bdca673573ada3514",
+      "scope": "supplementary material for author revision",
+      "yellow_highlight_elements": 18
+    },
+    {
+      "file": "PaperB_Supplementary_methods.pdf",
+      "bytes": 67688,
+      "sha256": "2676fecfa6ab7e8cf2de95d42c354783a5d352ebcf8910b9336fc49981ecb0cc",
+      "scope": "supplementary material for author revision",
+      "pages": 2
+    },
+    {
+      "file": "PaperB_Supplementary_methods.docx",
+      "bytes": 42262,
+      "sha256": "cceb501c5c4e0a182335f716d90c28e88922d6a9279928abf109374f9f010399",
+      "scope": "supplementary material for author revision",
+      "yellow_highlight_elements": 40
+    }
+  ],
+  "author_identity_completion_by_authors": true,
+  "scientific_manuscript_bytes_unchanged_by_web_attachment": true
+}

@@ -1,3 +1,8 @@
-# Paper B / manuscript
+# Paper B / revised manuscript
 
-Revised manuscript and supplementary drafts are maintained in the private author-review area. A final public manuscript version has not been selected by this package.
+- [Highlighted PDF](../../docs/downloads/papers/PaperB_Revised_highlighted.pdf)
+- [Highlighted Word](../../docs/downloads/papers/PaperB_Revised_highlighted.docx)
+- [Supplement PDF](../../docs/downloads/papers/PaperB_Supplementary_methods.pdf)
+- [Supplement Word](../../docs/downloads/papers/PaperB_Supplementary_methods.docx)
+
+Existing author-revision drafts, copied byte-for-byte. Author details will be supplied by the authors.

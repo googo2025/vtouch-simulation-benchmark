@@ -6,6 +6,15 @@
 
 本资料包用于A、B两篇论文的核心证据浏览。腾讯云保留完整43项ABC交互；GitHub版集中为4个入口，数据随包保存，可独立部署到GitHub Pages。
 
+## 修订论文与补充材料
+
+| 论文 | 黄标修订稿 | 补充材料 |
+|---|---|---|
+| A | [PDF](docs/downloads/papers/PaperA_Revised_highlighted.pdf) · [Word](docs/downloads/papers/PaperA_Revised_highlighted.docx) | [PDF](docs/downloads/papers/PaperA_Supplementary_material.pdf) · [Word](docs/downloads/papers/PaperA_Supplementary_material.docx) |
+| B | [PDF](docs/downloads/papers/PaperB_Revised_highlighted.pdf) · [Word](docs/downloads/papers/PaperB_Revised_highlighted.docx) | [PDF](docs/downloads/papers/PaperB_Supplementary_methods.pdf) · [Word](docs/downloads/papers/PaperB_Supplementary_methods.docx) |
+
+以上为现有修订稿；作者身份信息按约定由作者自行补充。
+
 | 入口 | 内容 |
 |---|---|
 | A1 形貌与可观测性 | 15种形貌的保存结果、3种简易可旋转点云、原高度图和匹配相机画面、原保存区域—深度—条件比较。 |
@@ -23,8 +32,13 @@ README.md为默认英文说明。docs/是可独立运行的中英文静态站点
 
 ## 直观预览
 
-[![三个原始结构的旋转动图](docs/assets/paper-three-geometries.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/zh/)
+[![未按压、按压后、彩色差分特写与不同照明对比](docs/assets/press-reference-lighting-zh.gif)](https://googo2025.github.io/vtouch-simulation-benchmark/zh/)
+
+动图展示两个区域已有未按压与按压状态，以及LED4的0°、12°、34°、60°照明方向。采用原相机视角、不展开；同位置160×160像素特写对齐。全部帧共用彩色光学差分色标；灰度显示统一gamma 0.45，差分直接用原数值。三维灰色为未按压、青色为按压后，原坐标不放大形变。
+
 
 **点击旋转简易三维：** [圆端](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=round#1) · [成对尖端](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=paired#1) · [交叉线](https://googo2025.github.io/vtouch-simulation-benchmark/zh/?shape=cross_lines#1)
 
-[腾讯云完整ABC平台](https://115.159.42.27:8088/vtouch/zh/)。动图只旋转已有三维并显示原保存高度图，便于直接看清做过的结构。
+[腾讯云完整ABC平台](https://115.159.42.27:8088/vtouch/zh/)。原三种结构的旋转动图另保留在 docs/assets/paper-three-geometries.gif。
+
+动图显示源码：tools/render_press_comparison.py；已有公开源导出链接及指纹：provenance/press-preview-source-map.json。

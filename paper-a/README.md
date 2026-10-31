@@ -16,4 +16,4 @@ The exact end-to-end simulator producer is pending release-completeness review. 
 
 ## Manuscript and citation
 
-Revised manuscripts are private review drafts. Authors, final citation and release rights will be completed by the authors. This directory does not claim publication or acceptance.
+Revised author manuscripts and supplements are linked in [manuscript/](manuscript/README.md). Authors, final citation and release rights will be completed by the authors. This directory does not claim publication or acceptance.

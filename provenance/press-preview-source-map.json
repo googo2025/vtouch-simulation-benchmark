@@ -1,0 +1,95 @@
+{
+  "source_files": {
+    "cases/082.json": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/cases/082.json",
+      "scope": "public gateway removes private absolute path strings; scientific source identities retained"
+    },
+    "meshes/1b888b0082dc71a531a310fbe964203dad49ef21adf274f67233dec13a1f353a.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/meshes/1b888b0082dc71a531a310fbe964203dad49ef21adf274f67233dec13a1f353a.f32",
+      "sha256": "9d7882b7fe4f11a21b2c99c509c57ab7762fcf7064f809e2a3391ede69238e8b",
+      "bytes": 9054192
+    },
+    "planes/2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a.f32",
+      "sha256": "2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a",
+      "bytes": 3686400
+    },
+    "planes/7bb4e7b0e7c27b3a7020214c8de9edce92b79ef030ed80a728c75864421e8f7a.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/7bb4e7b0e7c27b3a7020214c8de9edce92b79ef030ed80a728c75864421e8f7a.f32",
+      "sha256": "7bb4e7b0e7c27b3a7020214c8de9edce92b79ef030ed80a728c75864421e8f7a",
+      "bytes": 3686400
+    },
+    "planes/81fc3fb8d0710ba4b81968f775a30f527929aa66871979b877115e3072614079.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/81fc3fb8d0710ba4b81968f775a30f527929aa66871979b877115e3072614079.f32",
+      "sha256": "81fc3fb8d0710ba4b81968f775a30f527929aa66871979b877115e3072614079",
+      "bytes": 3686400
+    },
+    "planes/f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658.f32",
+      "sha256": "f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658",
+      "bytes": 3686400
+    },
+    "cases/083.json": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/cases/083.json",
+      "scope": "public gateway removes private absolute path strings; scientific source identities retained"
+    },
+    "meshes/81e84115c25a42a518044bf97eca6a9bf590ee413d2092bb4c7f547bf5498a33.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/meshes/81e84115c25a42a518044bf97eca6a9bf590ee413d2092bb4c7f547bf5498a33.f32",
+      "sha256": "2bda219644242959aab38592103e82c2bb514fd811cf8d30daf0c71b230b85c2",
+      "bytes": 9054192
+    },
+    "planes/952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8.f32",
+      "sha256": "952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8",
+      "bytes": 3686400
+    },
+    "planes/0c4594edff51514a025df7dfd9cf7e79cc1009569184b195605e1be48f0dc40d.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/0c4594edff51514a025df7dfd9cf7e79cc1009569184b195605e1be48f0dc40d.f32",
+      "sha256": "0c4594edff51514a025df7dfd9cf7e79cc1009569184b195605e1be48f0dc40d",
+      "bytes": 3686400
+    },
+    "planes/ffb143355da7375f2e8d2cf7b9e8f43a2fcb988b07e28351030cebe2207da7c1.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/ffb143355da7375f2e8d2cf7b9e8f43a2fcb988b07e28351030cebe2207da7c1.f32",
+      "sha256": "ffb143355da7375f2e8d2cf7b9e8f43a2fcb988b07e28351030cebe2207da7c1",
+      "bytes": 3686400
+    },
+    "planes/89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4.f32",
+      "sha256": "89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4",
+      "bytes": 3686400
+    },
+    "cases/101.json": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/cases/101.json",
+      "scope": "public gateway removes private absolute path strings; scientific source identities retained"
+    },
+    "meshes/ce97d5ade599068cba491b97aa866528e02252df2f8073dfd80917562d1f7690.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/meshes/ce97d5ade599068cba491b97aa866528e02252df2f8073dfd80917562d1f7690.f32",
+      "sha256": "3957a0a13d62b3ed3edc6bb42e60c9eb3eab9a0d28a95744ec96074e010a74b3",
+      "bytes": 9054192
+    },
+    "planes/2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a.f32",
+      "sha256": "2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a",
+      "bytes": 3686400
+    },
+    "planes/968e3145a84569752048c3e6528b552901fe0b0dbcc6b97cb5cbeb789cd97d04.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/968e3145a84569752048c3e6528b552901fe0b0dbcc6b97cb5cbeb789cd97d04.f32",
+      "sha256": "968e3145a84569752048c3e6528b552901fe0b0dbcc6b97cb5cbeb789cd97d04",
+      "bytes": 3686400
+    },
+    "planes/45bd445213ef5eef00d30934c6b38e03cb3b8f82f8ef20af11146d5ad2e9e4e9.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/45bd445213ef5eef00d30934c6b38e03cb3b8f82f8ef20af11146d5ad2e9e4e9.f32",
+      "sha256": "45bd445213ef5eef00d30934c6b38e03cb3b8f82f8ef20af11146d5ad2e9e4e9",
+      "bytes": 3686400
+    },
+    "planes/63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5.f32": {
+      "url": "https://115.159.42.27:8088/vtouch/legacy/original-whole-v2-all-saved-contexts-3d/planes/63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5.f32",
+      "sha256": "63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5",
+      "bytes": 3686400
+    }
+  },
+  "purpose": "display-only reconstruction of paired optical comparison",
+  "source_runtime": "Python with NumPy and Pillow; CJK font used for Chinese labels",
+  "source_folder_layout": "cases/, meshes/, planes/",
+  "scientific_source_files_not_recomputed": true
+}

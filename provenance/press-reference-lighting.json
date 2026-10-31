@@ -1,0 +1,167 @@
+{
+  "purpose": "display existing paired states only",
+  "cases": [
+    83,
+    101
+  ],
+  "reference_case": 82,
+  "same_parent_group_verified": true,
+  "LED": 4,
+  "illumination_tilts_deg": [
+    0,
+    12,
+    34,
+    60
+  ],
+  "source_shape": [
+    720,
+    1280
+  ],
+  "native_projection_preserved": true,
+  "unwrapped_height_maps_used": false,
+  "geometry_amplification": 1.0,
+  "geometry_display_stride": 5,
+  "geometry_closeup_width_mm": 6,
+  "signed_difference_definition": "loaded saved radiance minus paired unloaded saved radiance",
+  "fixed_gray_white": 0.00044562044786289334,
+  "fixed_observation_display_gamma": 0.45,
+  "optical_difference_uses_unmodified_source_values": true,
+  "fixed_symmetric_difference_color_limit": 4.918167633150006e-06,
+  "maximum_abs_difference_all_frames": 1.9672670532600023e-05,
+  "color_clipping": "saturation outside fixed endpoints, identical across every frame",
+  "crops": {
+    "83": {
+      "crop_native_pixels": [
+        697,
+        331,
+        857,
+        491
+      ],
+      "selection": "fixed 160x160 display crop centered on the across-light peak absolute image change; not a recognition target or new label",
+      "maximum_abs_saved_radiance_change": 1.9672670532600023e-05
+    },
+    "101": {
+      "crop_native_pixels": [
+        565,
+        302,
+        725,
+        462
+      ],
+      "selection": "fixed 160x160 display crop centered on the across-light peak absolute image change; not a recognition target or new label",
+      "maximum_abs_saved_radiance_change": 1.0030733392341062e-05
+    }
+  },
+  "source_files": [
+    {
+      "file": "1b888b0082dc71a531a310fbe964203dad49ef21adf274f67233dec13a1f353a.f32",
+      "sha256": "9d7882b7fe4f11a21b2c99c509c57ab7762fcf7064f809e2a3391ede69238e8b",
+      "bytes": 9054192
+    },
+    {
+      "file": "2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a.f32",
+      "sha256": "2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a",
+      "bytes": 3686400
+    },
+    {
+      "file": "7bb4e7b0e7c27b3a7020214c8de9edce92b79ef030ed80a728c75864421e8f7a.f32",
+      "sha256": "7bb4e7b0e7c27b3a7020214c8de9edce92b79ef030ed80a728c75864421e8f7a",
+      "bytes": 3686400
+    },
+    {
+      "file": "81fc3fb8d0710ba4b81968f775a30f527929aa66871979b877115e3072614079.f32",
+      "sha256": "81fc3fb8d0710ba4b81968f775a30f527929aa66871979b877115e3072614079",
+      "bytes": 3686400
+    },
+    {
+      "file": "f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658.f32",
+      "sha256": "f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658",
+      "bytes": 3686400
+    },
+    {
+      "file": "81e84115c25a42a518044bf97eca6a9bf590ee413d2092bb4c7f547bf5498a33.f32",
+      "sha256": "2bda219644242959aab38592103e82c2bb514fd811cf8d30daf0c71b230b85c2",
+      "bytes": 9054192
+    },
+    {
+      "file": "952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8.f32",
+      "sha256": "952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8",
+      "bytes": 3686400
+    },
+    {
+      "file": "0c4594edff51514a025df7dfd9cf7e79cc1009569184b195605e1be48f0dc40d.f32",
+      "sha256": "0c4594edff51514a025df7dfd9cf7e79cc1009569184b195605e1be48f0dc40d",
+      "bytes": 3686400
+    },
+    {
+      "file": "ffb143355da7375f2e8d2cf7b9e8f43a2fcb988b07e28351030cebe2207da7c1.f32",
+      "sha256": "ffb143355da7375f2e8d2cf7b9e8f43a2fcb988b07e28351030cebe2207da7c1",
+      "bytes": 3686400
+    },
+    {
+      "file": "89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4.f32",
+      "sha256": "89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4",
+      "bytes": 3686400
+    },
+    {
+      "file": "ce97d5ade599068cba491b97aa866528e02252df2f8073dfd80917562d1f7690.f32",
+      "sha256": "3957a0a13d62b3ed3edc6bb42e60c9eb3eab9a0d28a95744ec96074e010a74b3",
+      "bytes": 9054192
+    },
+    {
+      "file": "2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a.f32",
+      "sha256": "2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a",
+      "bytes": 3686400
+    },
+    {
+      "file": "968e3145a84569752048c3e6528b552901fe0b0dbcc6b97cb5cbeb789cd97d04.f32",
+      "sha256": "968e3145a84569752048c3e6528b552901fe0b0dbcc6b97cb5cbeb789cd97d04",
+      "bytes": 3686400
+    },
+    {
+      "file": "45bd445213ef5eef00d30934c6b38e03cb3b8f82f8ef20af11146d5ad2e9e4e9.f32",
+      "sha256": "45bd445213ef5eef00d30934c6b38e03cb3b8f82f8ef20af11146d5ad2e9e4e9",
+      "bytes": 3686400
+    },
+    {
+      "file": "63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5.f32",
+      "sha256": "63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5",
+      "bytes": 3686400
+    }
+  ],
+  "source_scene_sha256": {
+    "82": "1b888b0082dc71a531a310fbe964203dad49ef21adf274f67233dec13a1f353a",
+    "83": "81e84115c25a42a518044bf97eca6a9bf590ee413d2092bb4c7f547bf5498a33",
+    "101": "ce97d5ade599068cba491b97aa866528e02252df2f8073dfd80917562d1f7690"
+  },
+  "exports": [
+    {
+      "file": "press-reference-lighting-en.gif",
+      "sha256": "c0303524aa02bc59ed6a4b1d2a8fe3a9880ba59762a16c978b336d080ff941e8",
+      "bytes": 681533,
+      "frames": 8,
+      "duration_seconds": 11.2,
+      "dimensions": [
+        1280,
+        790
+      ]
+    },
+    {
+      "file": "press-reference-lighting-zh.gif",
+      "sha256": "772944e7bbd6464bb728268834937cccf911bfa739f5cb05cff1292f1f6ec80f",
+      "bytes": 688460,
+      "frames": 8,
+      "duration_seconds": 11.2,
+      "dimensions": [
+        1280,
+        790
+      ]
+    }
+  ],
+  "new_simulation_training_inference_or_recognition_features": false,
+  "workers": 3,
+  "wall_seconds": 5.963017862057313,
+  "CPU_seconds_total": 6.714662,
+  "parent_peak_RSS_KiB": 332616,
+  "children_peak_RSS_KiB": 249136,
+  "source_bytes_read": 71399376
+}
