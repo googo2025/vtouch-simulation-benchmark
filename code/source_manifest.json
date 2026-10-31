@@ -1,0 +1,32 @@
+[
+  {
+    "file": "code/historical/original_image_cnn.py",
+    "SHA256": "e4288040893eda3f2b7f712191bda15f0a18f615c68cdfb0af4434584e16e8aa",
+    "bytes": 13444
+  },
+  {
+    "file": "code/historical/nested_writer.py",
+    "SHA256": "a96698456ef438f5832a1fc49fd7e34095f59abf8a6774e677bd916903321379",
+    "bytes": 16127
+  },
+  {
+    "file": "code/historical/scalar18.py",
+    "SHA256": "4d134afef08e3b855193b929f7b3920072b26941ac8a2184fc0c8720af1177ee",
+    "bytes": 3145
+  },
+  {
+    "file": "code/historical/scalar38.py",
+    "SHA256": "a0a7c879ee28898229a13a51c79723f116c79e03f5c81ce87c98a21433ecb1b2",
+    "bytes": 12956
+  },
+  {
+    "file": "code/historical/multimarker.py",
+    "SHA256": "227a0044f598ef7cd80503dadee35526d3915e3a76f139c79b376987bfdff395",
+    "bytes": 3786
+  },
+  {
+    "file": "code/historical/numpy_baselines.py",
+    "SHA256": "45837bb37ea58c375f2aca0087b064075425899e2093572f4d51b39e842504e9",
+    "bytes": 3131
+  }
+]

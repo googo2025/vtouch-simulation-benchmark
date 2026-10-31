@@ -1,0 +1,26 @@
+{
+  "PCA_components_max": 12,
+  "Ridge_lambda": 0.5,
+  "MLP_hidden": 24,
+  "activation": "Tanh",
+  "base_steps": 300,
+  "budgets": [
+    300,
+    600,
+    1200,
+    2400,
+    4800
+  ],
+  "Adam_lr": 0.008,
+  "Adam_betas": [
+    0.9,
+    0.999
+  ],
+  "Adam_epsilon": 1e-08,
+  "weight_gradient_decay": 0.001,
+  "separate_input_dimensions": [
+    18,
+    38,
+    5697
+  ]
+}

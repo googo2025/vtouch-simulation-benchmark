@@ -1,0 +1,10 @@
+{
+  "saved_environment": {
+    "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
+    "torch": "2.14.0+cu130",
+    "numpy": "2.4.6",
+    "cuda": "13.0",
+    "GPU": "NVIDIA GeForce RTX 4090"
+  },
+  "rebuild_status": "not rebuilt during preparation"
+}

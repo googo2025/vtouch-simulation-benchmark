@@ -1,0 +1,39 @@
+{
+  "learning_rates": [
+    0.001,
+    0.0003
+  ],
+  "epochs": [
+    64,
+    128,
+    256
+  ],
+  "seeds": [
+    1701,
+    1702,
+    1703
+  ],
+  "location_groups": 3,
+  "inner_splits": 2,
+  "selection": "mean validation loss; ties by lower epochs then lower learning rate",
+  "inner_null_train": [
+    0,
+    15
+  ],
+  "inner_null_validate": [
+    16,
+    31
+  ],
+  "null_threshold": [
+    32,
+    63
+  ],
+  "outer_null_train": [
+    0,
+    31
+  ],
+  "independent_null_eval": [
+    0,
+    63
+  ]
+}

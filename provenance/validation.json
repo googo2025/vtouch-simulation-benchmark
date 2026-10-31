@@ -1,0 +1,12 @@
+{
+  "static_relative_references_checked": 30,
+  "broken_references": [],
+  "gzip_geometry_and_plane_layouts": "passed",
+  "selected_input_images": 48,
+  "saved_runs": 12,
+  "credential_pattern_hits": [],
+  "private_Tailscale_endpoint_hits": [],
+  "symlinks_in_upload_package": 0,
+  "javascript_blocks_checked": 16,
+  "javascript_syntax_errors": 0
+}

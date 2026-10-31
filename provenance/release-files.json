@@ -1,0 +1,853 @@
+{
+  "version": "2026-10-31-paper-companion-review-v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 51,
+      "sha256": "f26140daf20f9d88373759c8d5e2859950e705f9af4157dba446767df2a072ec"
+    },
+    {
+      "path": "LICENSE_NOTICE.txt",
+      "bytes": 197,
+      "sha256": "4bd05c1f5b5c76a2f352f73baf3ffddb9816a5e7076cd59c8eb60c19c2c9b047"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4851,
+      "sha256": "0f81c2c364de37cce02425175c70c84db13dc6f9f29464fd1eb06a6c9399b33e"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 2083,
+      "sha256": "765bdeb0abbba5bfa067247150ba8d6f940e68b6a2008d8ecf58c7b324d34a23"
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "bytes": 1099,
+      "sha256": "a9c7241d0f7520541cf3c49d1851afcab72dda5e11b3f237297cde971a97dd8f"
+    },
+    {
+      "path": "UPLOAD.md",
+      "bytes": 1538,
+      "sha256": "ff3a783aa73e47a6e76ab48eb4365a8279a61c33e778381aa60fd33478708cd2"
+    },
+    {
+      "path": "VERSION.txt",
+      "bytes": 37,
+      "sha256": "30120a7273bcd0899c69edab4965627e882a23120d1cb1e35551c80fb2c6aa5e"
+    },
+    {
+      "path": "code/historical/multimarker.py",
+      "bytes": 3786,
+      "sha256": "227a0044f598ef7cd80503dadee35526d3915e3a76f139c79b376987bfdff395"
+    },
+    {
+      "path": "code/historical/nested_writer.py",
+      "bytes": 16127,
+      "sha256": "a96698456ef438f5832a1fc49fd7e34095f59abf8a6774e677bd916903321379"
+    },
+    {
+      "path": "code/historical/numpy_baselines.py",
+      "bytes": 3131,
+      "sha256": "45837bb37ea58c375f2aca0087b064075425899e2093572f4d51b39e842504e9"
+    },
+    {
+      "path": "code/historical/original_image_cnn.py",
+      "bytes": 13444,
+      "sha256": "e4288040893eda3f2b7f712191bda15f0a18f615c68cdfb0af4434584e16e8aa"
+    },
+    {
+      "path": "code/historical/scalar18.py",
+      "bytes": 3145,
+      "sha256": "4d134afef08e3b855193b929f7b3920072b26941ac8a2184fc0c8720af1177ee"
+    },
+    {
+      "path": "code/historical/scalar38.py",
+      "bytes": 12956,
+      "sha256": "a0a7c879ee28898229a13a51c79723f116c79e03f5c81ce87c98a21433ecb1b2"
+    },
+    {
+      "path": "code/source_manifest.json",
+      "bytes": 942,
+      "sha256": "522e2d10f0f7af74b3f76b846e8612a68ab8e45b711cf6418ee38bb91528d8f5"
+    },
+    {
+      "path": "configs/historical_environment.json",
+      "bytes": 262,
+      "sha256": "06661cd3a22ad3c874945138766633016ee30a932ea6bf72df1c92a130cc5247"
+    },
+    {
+      "path": "configs/lightweight.json",
+      "bytes": 370,
+      "sha256": "f586a040ba349dc280fd8692db326df65f3f6202cc537285722b0bd0d97696db"
+    },
+    {
+      "path": "configs/nested_CNN.json",
+      "bytes": 497,
+      "sha256": "cc0f4a84c554787c06afc61fe189fa4033545fd3450ff7f5a4abce72fc981bda"
+    },
+    {
+      "path": "configs/original_CNN.json",
+      "bytes": 2653,
+      "sha256": "95ff5bd1246b7afcf5f4a42d1f4dddab9a87e23b9b1d3e7b946ab9b93a3a0372"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/baselines.js",
+      "bytes": 1991,
+      "sha256": "2c551467b2e32f2a319e9f1583ae64437e52beaa9f6ec4b757935005fcfb0396"
+    },
+    {
+      "path": "docs/data/a-all-saved-comparisons.json",
+      "bytes": 3136516,
+      "sha256": "8a56305d5fcf05aba567d1557633ce209062063576256fcbee2ad40004515ac1"
+    },
+    {
+      "path": "docs/data/b-baseline.json",
+      "bytes": 5354,
+      "sha256": "575631811a1c1cd9cdca43a28c356814d05be7297498f4de8078ba9298532725"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case000/00.png",
+      "bytes": 87169,
+      "sha256": "57a7488297d80d8a2f31ca77626a978f23f8fb8fa66f2a7157bed07d0fa86e94"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case001/00.png",
+      "bytes": 87034,
+      "sha256": "447476b144366e0af3b18213b756731d56f0791f87019f7295d0bf3b66ab4f8a"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case002/00.png",
+      "bytes": 87234,
+      "sha256": "a8cf8f846add2bbaa97fd892921de8141c7e4d0a05aad51fca3bb6ef528c89ff"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case003/00.png",
+      "bytes": 87229,
+      "sha256": "533390737dc59a5139332de6abb4040d980b9f944340b8bfe9a057b9c9470d93"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case004/00.png",
+      "bytes": 87538,
+      "sha256": "18b6589717bfda575a683d0641a21ee91c66a178a66e5d53d4a011cd9b36e92f"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case005/00.png",
+      "bytes": 87126,
+      "sha256": "365f8eba6f2f7500a521ffdf5d36b1e82d9e3f419e260690b7cebf4da137a1ab"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case006/00.png",
+      "bytes": 87223,
+      "sha256": "b657ebfea7f71fae0d88116fae462dbf211d84ba9a569a51d3e3396651beb526"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case007/00.png",
+      "bytes": 87050,
+      "sha256": "c9b27465734379758ff84a4559d8118a5e1a2c395d60b8c89aba87c1c654ef91"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case008/00.png",
+      "bytes": 87195,
+      "sha256": "bf9ae5ffbffe28f7ac0c1667d87f503c38296efe55374cbfcfe89e5a1158f79c"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case009/00.png",
+      "bytes": 87087,
+      "sha256": "509df944f4ca69495eff83f42b3e7737ab3921717d21791ef7c3057134404d42"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case010/00.png",
+      "bytes": 86947,
+      "sha256": "af8c44415933171174a05d87529943a2258d3f716bde7c023ca57ab0a1690b84"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case011/00.png",
+      "bytes": 87504,
+      "sha256": "83d6dd9d5535555e7c20fb39c1c17082f5f34d8168d6b7398db90f903cccac98"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case012/00.png",
+      "bytes": 87179,
+      "sha256": "ef44781de1b61ba296748be775ab8c331667e7a3c3ec237590faf06d7417036a"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case013/00.png",
+      "bytes": 87145,
+      "sha256": "4bacb1fc19e6e3f85f6a18d3e37ace93c2cdd8ed7e23b1a8ec70118191ee0dd3"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case014/00.png",
+      "bytes": 87450,
+      "sha256": "f8d83b908dafd17d1ccba6ffff5704f4d94b5732b507bad7285d6a808b6ed614"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case015/00.png",
+      "bytes": 87135,
+      "sha256": "8430d6f65dfbfbd20557bfe54e1af883b3f660c4b095be61896a2223831c1c15"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case016/00.png",
+      "bytes": 87391,
+      "sha256": "fc4b532b15b6f3d5c2629f500b88bca7f8c98c40f1768738752c4dc225b5e307"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case017/00.png",
+      "bytes": 86930,
+      "sha256": "516fa9cfcafa43e29f519229f6aefb7bd6e7ac264f179f56daee8587399e23ed"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case018/00.png",
+      "bytes": 87112,
+      "sha256": "4396de3091b1121ed1936c131b3fc7e09f13bb67c7fe80b374b3d6656f21eca3"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case019/00.png",
+      "bytes": 87160,
+      "sha256": "75182dc811d72c85b9b80cdf549bb484bbfd4b57cd0ea6197513037bac8da76a"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case020/00.png",
+      "bytes": 87131,
+      "sha256": "8ad2d294d6da3ff0f0ae48a1603e733e3c699afbea499207a50bd5e1ab0dc4a5"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case021/00.png",
+      "bytes": 87269,
+      "sha256": "7f943952d77cf296e10450e3b3af905dfa54efcaf3e15d70a796ef2777484a71"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case022/00.png",
+      "bytes": 87090,
+      "sha256": "95bb119b3558fca6180f483a39d1d6256b85757e23ef50c6b8f16e75d358b14c"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case023/00.png",
+      "bytes": 87202,
+      "sha256": "6d0e9f590b14fa1b5e157770bd6a96acfcd854a5f676368eb7b0be9a51220635"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case072/00.png",
+      "bytes": 32269,
+      "sha256": "2d4696bdf07b0b2f3c062889e5302d18d39e803f7effe47ac88712ed17bfa976"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case073/00.png",
+      "bytes": 32191,
+      "sha256": "b783e38411e44cfbabb50497e551624b3f2443de9d79145ca6595cf188021916"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case074/00.png",
+      "bytes": 32210,
+      "sha256": "8a230e84e73f077e7c5eb9d6d02173d29459df2e805229cc9a8f25a8978a57ed"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case075/00.png",
+      "bytes": 32086,
+      "sha256": "a62d07bb7362e969754f6239a6d616ee5d0eac7e636ad2127d290a5234659366"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case076/00.png",
+      "bytes": 32133,
+      "sha256": "71e2a9932c2920c4f7244e5a0487dc7169d5a94727ec89fc6607663d86cd6ab4"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case077/00.png",
+      "bytes": 32155,
+      "sha256": "b124ad6948234a9c2348c2b05e283d67ea004f9d64916dbfa90479a6877b67fe"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case078/00.png",
+      "bytes": 32124,
+      "sha256": "683fd7d9ddc68f2f6b25794c4a37e7a443cb3f03bcc624134da1720cef88bcb4"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case079/00.png",
+      "bytes": 31998,
+      "sha256": "df7646879798f286fe6e0086b44d4fd478eda6c6e1af7f8025e6ce8c94724bb2"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case080/00.png",
+      "bytes": 32036,
+      "sha256": "0ae2c784e6d424372dda638f10ac346e63cbb03da8594a8e94622685365c62f1"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case081/00.png",
+      "bytes": 32013,
+      "sha256": "c9d958e912f79c57c5908cb95c397e9f47f7a9de68184e5de5572c5b4ee67419"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case082/00.png",
+      "bytes": 32124,
+      "sha256": "e5be7fb068856dd25a438a89f5849ebb16dd56a4155d12b5c17cc271c7ea7da0"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case083/00.png",
+      "bytes": 32165,
+      "sha256": "f75327289d0c63482b51fbd4e093cd3c7b4f8cd667c22306df26b3dd1014a064"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case084/00.png",
+      "bytes": 32020,
+      "sha256": "48a3e33d56575d91ad07ac992fc258f7290acf762a9011185bcd8d5e6ca0eb93"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case085/00.png",
+      "bytes": 32209,
+      "sha256": "9357e5390ab1910f6754584f8bbdacbf24d09be3a85eafcba110d06da46672b4"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case086/00.png",
+      "bytes": 32028,
+      "sha256": "0eeb6b98187ba063264695898361b8d0f3b78bc3f0c3dd6bcd29dfb6df3506ed"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case087/00.png",
+      "bytes": 32019,
+      "sha256": "7dcc9d97d2b603ad4dadd48d5c2d7e56c999e2b9f9fa17c1e5f0565f579b5116"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case088/00.png",
+      "bytes": 32080,
+      "sha256": "66023982415178b2f3230d951624830c3df9da99eb6edc657763383a83f1eb4f"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case089/00.png",
+      "bytes": 32179,
+      "sha256": "5356c600f46a0bebc4b50f73b5a60074ffa8d5da87f7eea286f4e98222f7bb81"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case090/00.png",
+      "bytes": 32257,
+      "sha256": "3a3d130116f954e4aa6cf1f99ba2de33c009fcc092471da936126e488cfa295c"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case091/00.png",
+      "bytes": 32118,
+      "sha256": "8c33286668814a8fab0be13721dfeb075f51829c90ce2e8bc3b3c01f4f2270da"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case092/00.png",
+      "bytes": 32060,
+      "sha256": "3c32e9ff32f96be88e68ba362695cb906f23523d81de450c62d943f760f35259"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case093/00.png",
+      "bytes": 32034,
+      "sha256": "88706fe3602c4f5c326845d2004fe7e76b1a235c9dacba4f06c057d31c577ea9"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case094/00.png",
+      "bytes": 32113,
+      "sha256": "b29b72b671c121f9f825b65ac52e323674864d4180e6f9469d3204d80a474eee"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/frames/case095/00.png",
+      "bytes": 32190,
+      "sha256": "9a589f7372033c37dbcbd07c695faaaf10ce07466b1c7bd755b50664aa64c6d8"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/inputs.json",
+      "bytes": 40252,
+      "sha256": "381b8939372f0e060ebe99f01d6863d0868316dd84c912e7236f5958c2eebe8c"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/predictions.json",
+      "bytes": 742249,
+      "sha256": "808b75c9f7e8361fef6f0c027e93d5e7d7b6ae0ff07f7098cfda69ea3aa23c9f"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/reference_tilt00.png",
+      "bytes": 66356,
+      "sha256": "ff4211fecb79d443c9b825c554df9518d9ba1e3e8ebb300281c3b778d09d0eb3"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/reference_tilt00_meanDN_float32.bin.gz",
+      "bytes": 256316,
+      "sha256": "d5191660c35be060385eacdd3d9181f1a8e98f33687f6d91f29b1d45e584befb"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/reference_tilt60.png",
+      "bytes": 26764,
+      "sha256": "e781cd041486b7d300fe7d90295821b38dfddd2b7fbfe64b4132a8afb9ccb2b5"
+    },
+    {
+      "path": "docs/data/existing-neural-input-and-recognition-interactive/assets/reference_tilt60_meanDN_float32.bin.gz",
+      "bytes": 82196,
+      "sha256": "f5e8e384b00ba476b075bb73fedffed744f5a6673bf50ae68d16731afb7d27f5"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/003e81f6eaa079693175edfcd032dbf182944ef96f5ae4e956048e91a27b0fcb_5_1.png",
+      "bytes": 128997,
+      "sha256": "8e755d26bcff350d5133df3538e5f105aa53a745f835e6b94b9fcfa93b060f4d"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/0f22b09c485df71fb066f0349ffc518bdbb6b839f9c1e5b3451f4466e324d402_5_1.png",
+      "bytes": 86646,
+      "sha256": "4f77abe8270b5c98640d0a37f4147b703806e16f6ad3017010f7d9d81104af16"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/4408daef0a41ea91eef46c40d2ac9f954b8bd4c62bd813a4fbe8ce63a0df2d47_5_1.png",
+      "bytes": 95453,
+      "sha256": "4e6989c1eb6962646aeb68b8864a69b7ea952214bfe0394d667297238d421eef"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/47b98936ef17123168ad40efc6441dc0ff12b97f14294f6dc326624662170a1c_5_1.png",
+      "bytes": 107222,
+      "sha256": "d3b7848ed2fac34abf144546988b5b73ac96d2acd3c054a3b64c76fc9e69a2d6"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/515dd08cd6792514025353bece07bec581a60c79ade8bf8151e7fb62e4137202_5_1.png",
+      "bytes": 104526,
+      "sha256": "5edb613c02f6547497af441681164a4048b321b29e4957f4e734ee1ffd9bfec9"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/6204664035249d3fb6a7edb264e0f5d757a1b3f2d3d978598002ee72c2f21ef5_5_1.png",
+      "bytes": 74738,
+      "sha256": "0fcf197fbb51f5d942c53de935527fe313d6152d7acd8b588d9f0e0425d8b6b7"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/b0bdda04b347ea9d20604c248011798e4428315317958278879d13c2766fb735_5_1.png",
+      "bytes": 115874,
+      "sha256": "f5959949c930c250b62c5413aad4e2e2477b74fd7fb9494919774796555ab9ec"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/c61298367e9390e7d04b354e60294b731cd6bdaeaa9f4921928ee90a0629498c_5_1.png",
+      "bytes": 109624,
+      "sha256": "b267420214c59640d95276d4cb4e8b930fc7b9cf2cd3baf79f2c126c706c281f"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/e50413c9e9fd8a7d21dde7b0385faaa29107a5536ad377e1562c510b7bf566e0_5_1.png",
+      "bytes": 125744,
+      "sha256": "6e6df7156a12e2de39dc550b4759bfb3cc41244ad5173379009f83ad3852cdb5"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/fc13fc2adf9d2113c662e20a5623b7ed0ed16bfbd258b1356c2aaa82102a3bb6_5_1.png",
+      "bytes": 68902,
+      "sha256": "a9474d2fc8d537847ea53b4d4b266774123640788097375c1adcf9edc8fef904"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/camera/fc5eaba58c56823cc72c52179b89c2486fe857daee9c11098434696c88742264_5_1.png",
+      "bytes": 110934,
+      "sha256": "cebc67621c0a5b4e28a2806b0e2494c5532c5a5dd7a15e8180cedf8430bf2137"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/1c953ff5f3d8b0ea46849c342dca0434be969d8f6d349e5a1c8cd24990ac4480.png",
+      "bytes": 65472,
+      "sha256": "6056cda5cb3ce32b7de8fb38062d08ddb2d5c7edff337fdb46a6572e6d3728ea"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/259e2ef33b7cbd086d4960b18bc2ebf3a808f39b3991caa70a5e7f3e6d83847f.png",
+      "bytes": 54631,
+      "sha256": "7250919bc210448a84ee148c2f7f9fdfbff179b7577359259ce3ba01e22764a0"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/3f89ab771a5806b5c246c61b49aa1abe141dca06cae44155fc972ad275f6975b.png",
+      "bytes": 5349,
+      "sha256": "d4e9f24f175be09216674e1a2edf028fa4a820412b3deb44e343aa1efadfdd51"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/4c74854e30f0b07fa30f2764ec84f8dbccf1d1d8916eebcefa619e66b0eabaaa.png",
+      "bytes": 73808,
+      "sha256": "7cbc4fa064f1d07c094ff4106bdc18fd43f994ab2db912919795ee7843613136"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/4fcb2f8bc56d68563c5554a67b66f5a004105fc5b1e1a8d5075a746a3ce5484d.png",
+      "bytes": 42832,
+      "sha256": "dd9be99c122a31308e0171c04719127f0ae26d152e3949b7fdae4762ee985b7f"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/54c68837e88ff45338a515bc72a9fd50c40857ff237d30649f6117d24869442d.png",
+      "bytes": 51848,
+      "sha256": "696f4b5ea52e25ea8a2d477968d7f2048e8e8547d45a04165c82846d19f17783"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/56cff9e2609488841a136b77bdb5e7712c8bed3c70f93cf88c993626c856dbed.png",
+      "bytes": 6831,
+      "sha256": "095a71118a6b005768517648d12f6dd6e829f914aeca1e913fa1c148c2948788"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/60adaa5e39d3785bce501a69f62c1cce185ec299b07701627708d464831b7a04.png",
+      "bytes": 67827,
+      "sha256": "933ae0ea09e18b036d5194472b82cde92996acf278e524bd5da74e25562e01bd"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/70443239d7d88dd2198d5e4ab98bec7492f923d0c40faaa1ab3ac05b20fb73b2.png",
+      "bytes": 67238,
+      "sha256": "09735afc27d1a29312b4ea744b87d54e676f32e8abfd665d7c9223da65519b66"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/724073f50fae7ac740ebe444e821c7a9843436279764d4ce9dd5bc3865693c20.png",
+      "bytes": 67340,
+      "sha256": "b4f35a9cd63a713e07766acc1511f3408f7b07634a6c4cafd779aec98b2a21b8"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/87a2f9d1d0958309e2c9ec1d141394117faa03930a6b38e410e4766a9da4bb02.png",
+      "bytes": 55377,
+      "sha256": "7f64da080ee7019f0799a366df80a5228364d991355d8a98b4e3c39d336d6e29"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/9ebd436c28f1255b1a4e339672ceb4632110ad70713c4b4ff4ca1f70afab9fc5.png",
+      "bytes": 82219,
+      "sha256": "6fa9a8de2f688ff5b9e66010f43cd43b08149ffc3673f87f18182c47b66e5a44"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/b5eced99d1a1549b3530e097725d1bd71f78ed93f335530621296cf7807a5cf4.png",
+      "bytes": 6793,
+      "sha256": "7a4b8e2e35b4203a1c30a101a3520e9e53036b963a6732af2bdad371fd1bb3a8"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/c6c64a9f6e7ef5afef0c2f818f63aa4793d82c08c7d445654923eeba2dd4338b.png",
+      "bytes": 68231,
+      "sha256": "b64a40e4aba47dde9e470692586fc5f3db101e282c5473df466d29a3f6bcce1f"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-maps/dc00d10c838fa03d041cc8fb39cfa0eb4fcfb4264fd5a2055ada0de1f6185208.png",
+      "bytes": 62883,
+      "sha256": "42189b172afb503bd62535d29e1b875bddaee0341251137d605a64ed53e0ad82"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/height-palette.png",
+      "bytes": 205,
+      "sha256": "50892045135459db634d80638d934f3ab8ced39fd99e7f8827ee3929e0c4e591"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/manifest.json",
+      "bytes": 22481,
+      "sha256": "a4976160ad250c40f7024de7d30f54b6f024d1102e9964d0b35626f00fc3fdd5"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/1c953ff5f3d8b0ea46849c342dca0434be969d8f6d349e5a1c8cd24990ac4480.bin.gz",
+      "bytes": 437091,
+      "sha256": "86a0382de0cc55b779225a17146cdd063f3cf1d9865dda4b356dcf201198192a"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/259e2ef33b7cbd086d4960b18bc2ebf3a808f39b3991caa70a5e7f3e6d83847f.bin.gz",
+      "bytes": 425272,
+      "sha256": "dbefa49b06d875cfbd99250f112fbf4682c97c77b86e307c03b489f059bbc43b"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/3f89ab771a5806b5c246c61b49aa1abe141dca06cae44155fc972ad275f6975b.bin.gz",
+      "bytes": 26840,
+      "sha256": "1ac6f6078576549c8dddeb2fbc0dcbd90b1a05273f7618814dd7e0139f3ef1bd"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/4c74854e30f0b07fa30f2764ec84f8dbccf1d1d8916eebcefa619e66b0eabaaa.bin.gz",
+      "bytes": 472027,
+      "sha256": "6e3907e0f7af3b0ee06b4139cc5f88e84231dbd018bc721f9f82173f74a3c946"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/4fcb2f8bc56d68563c5554a67b66f5a004105fc5b1e1a8d5075a746a3ce5484d.bin.gz",
+      "bytes": 408223,
+      "sha256": "4a3905f372efa32882187610447a7ddb78ce60003ccc2ff8fca42edbca7f9f4e"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/54c68837e88ff45338a515bc72a9fd50c40857ff237d30649f6117d24869442d.bin.gz",
+      "bytes": 416882,
+      "sha256": "dbc1fca9a39bc29beacec497c747ac602e82f3b143b5f94f09a5979a984fe818"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/56cff9e2609488841a136b77bdb5e7712c8bed3c70f93cf88c993626c856dbed.bin.gz",
+      "bytes": 78224,
+      "sha256": "ed19116429bb506482f2329b10ad9689f3499b7742ccca4c67ac4fe55aff7fdf"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/60adaa5e39d3785bce501a69f62c1cce185ec299b07701627708d464831b7a04.bin.gz",
+      "bytes": 448403,
+      "sha256": "6eb0e976a518f6336c50aaed8558dd1d6f52121f6d4c89d5657df98cbd4962a8"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/70443239d7d88dd2198d5e4ab98bec7492f923d0c40faaa1ab3ac05b20fb73b2.bin.gz",
+      "bytes": 449426,
+      "sha256": "65c68111da270e03a2eb7b20200e94dd61e5deafccd7ea4384a635c76a4f1642"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/724073f50fae7ac740ebe444e821c7a9843436279764d4ce9dd5bc3865693c20.bin.gz",
+      "bytes": 449191,
+      "sha256": "ac325be2cab698e4d6f86239ff05c5b2ea4a71a4108b2fa035271979d2336971"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/87a2f9d1d0958309e2c9ec1d141394117faa03930a6b38e410e4766a9da4bb02.bin.gz",
+      "bytes": 425050,
+      "sha256": "75063850bb7fff0fdbf6962a1028c55e9b737ba5b0c7dac26ced529b1bb5ae48"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/9ebd436c28f1255b1a4e339672ceb4632110ad70713c4b4ff4ca1f70afab9fc5.bin.gz",
+      "bytes": 474095,
+      "sha256": "a800d62a2acef6934f6c9eb37e83137efa73025fc680d0ff5b1f53fbcb5144ff"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/b5eced99d1a1549b3530e097725d1bd71f78ed93f335530621296cf7807a5cf4.bin.gz",
+      "bytes": 96583,
+      "sha256": "f659f0533d883688ae847adf95e6996493b12d4850e5856930c3701e108a702c"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/c6c64a9f6e7ef5afef0c2f818f63aa4793d82c08c7d445654923eeba2dd4338b.bin.gz",
+      "bytes": 478059,
+      "sha256": "17606d1346726d682fda73d393d1977d8c99f0cd0394fb3018ebf67a605c63ec"
+    },
+    {
+      "path": "docs/data/fine-textures-3d-rest-camera/points/dc00d10c838fa03d041cc8fb39cfa0eb4fcfb4264fd5a2055ada0de1f6185208.bin.gz",
+      "bytes": 461724,
+      "sha256": "4518fd213245956a82db24b801c4ec492ff5a4e2872b2c092e5af68b28851fc9"
+    },
+    {
+      "path": "docs/data/loaded/2e66e342817346df3b5890a4634f4c92929ee88ee00df9acbeaa87f8a0b1de0a.f32.gz",
+      "bytes": 1144109,
+      "sha256": "b30c4ec31bfc117aa8beec5d1ec69490bacbbf05748d273849d12480539c3166"
+    },
+    {
+      "path": "docs/data/loaded/2f299675eb89e0d7303ae169a4f7a6cfc949d4d7fcc2a18c503d0b3d707b9a6a.f32.gz",
+      "bytes": 1144020,
+      "sha256": "9e422696edb8ffc5fef20a9adb977e6f7b08ae0dac2a4f8ce9e5678fbc41e1e4"
+    },
+    {
+      "path": "docs/data/loaded/36e9b064c4a47d34a730d353b84064bd225245abd92c66859e850fdd365d69e0.f32.gz",
+      "bytes": 1144388,
+      "sha256": "17099a0030ac16b630b1e9039625d2a2b6790859c70dc80a21ea4dcef4e5da74"
+    },
+    {
+      "path": "docs/data/loaded/4fccda6157409fb463c008716b35b47ee7f37fcdcc45b16780b2423c737acd96.f32.gz",
+      "bytes": 789271,
+      "sha256": "628bb03d644ae036276ec87f3a119c7ee80c495c05a0684faffabeffd2813803"
+    },
+    {
+      "path": "docs/data/loaded/63beb04d1ab2bffaf37acb3744df9a907230390262ba8214da764ead672be6c5.f32.gz",
+      "bytes": 789250,
+      "sha256": "2707e0bc1fd29c75c8f02df34e8704898d25a70ca57c4b9c336807f087b2d0c5"
+    },
+    {
+      "path": "docs/data/loaded/89b6a7edddc688aef12182c69ed604ed02a1f79285abf42a4276cf0eb2d014f4.f32.gz",
+      "bytes": 789029,
+      "sha256": "2685934f6d404f7618241dd3e2fbc808f674bee8cc093020ea9aa52d8086f5c7"
+    },
+    {
+      "path": "docs/data/loaded/952999ecd6c964c0af38fc7bc7bd4de1b4f92d2472b4ce8bcf2f74242c25a3a8.f32.gz",
+      "bytes": 1144413,
+      "sha256": "f7e3a4f6a912f5734c0dd56f335e6786c725288b1cf121653d42fa61ad9afab2"
+    },
+    {
+      "path": "docs/data/loaded/b175616e8965da0527586fa6fe54b5e4598fff5cde84ee395fb27d2e7b249b6d.f32.gz",
+      "bytes": 789512,
+      "sha256": "f5193599c96b16741e70cc415443fe958bf6b4a5cc1e65e683ca0f5a8a7de6f7"
+    },
+    {
+      "path": "docs/data/loaded/be02bfbef4281f406cb30d9d21c1065f5a90a742c5cb96f3acd8d8994a9a4bed.f32.gz",
+      "bytes": 1144116,
+      "sha256": "32f2247b813dac8ebbaf41763ff4e7dad091dacc27e6517eb014d0a5ed3fd718"
+    },
+    {
+      "path": "docs/data/loaded/f463cfa47cb0a364455beb30884939ad77c16f2d27e2d63a1bd481abcb406658.f32.gz",
+      "bytes": 789143,
+      "sha256": "3172a4f15717cc35f1dffc817e98e3313f3896d8f7c15fac5b592676b7b4add8"
+    },
+    {
+      "path": "docs/data/loaded/index.json",
+      "bytes": 4302,
+      "sha256": "dceec216a5d4a8e7f84c998cae0119a3127e1def11a758e768d305ec4da11160"
+    },
+    {
+      "path": "docs/data/loaded/mesh-101.bin.gz",
+      "bytes": 347250,
+      "sha256": "9ba1bd5f77c863e8c6089af54939fd916a51146e2425b0f8a129aab04fa04980"
+    },
+    {
+      "path": "docs/data/loaded/mesh-82.bin.gz",
+      "bytes": 333593,
+      "sha256": "27a1cb63e61caacad93a27ce6f744fb0e4567f697141838d8d1d576f16dd4b4a"
+    },
+    {
+      "path": "docs/data/loaded/mesh-83.bin.gz",
+      "bytes": 347636,
+      "sha256": "2d133b7abae6df6b487662141ed657d8d8af688eb515788f0bde2363058a7ad5"
+    },
+    {
+      "path": "docs/data/loaded/mesh-89.bin.gz",
+      "bytes": 349039,
+      "sha256": "97304bdbcfa82c3bc6da78378fc034ed82605c6eaed47fff36b68cb4a3562613"
+    },
+    {
+      "path": "docs/data/loaded/mesh-95.bin.gz",
+      "bytes": 342152,
+      "sha256": "5b4e0e87d8ccc31ccf7937f01fb6bbee906c87b4dc63ea5a7ffc8c6f370ac1e7"
+    },
+    {
+      "path": "docs/downloads/A_Table_S1_region_depth.csv",
+      "bytes": 42161,
+      "sha256": "5c721b5e8be45e4d190ace979c0d5300fa98e1de3afc057b546142c8f5b28096"
+    },
+    {
+      "path": "docs/downloads/A_all_saved_condition_comparisons.csv",
+      "bytes": 1373816,
+      "sha256": "d6ec00a8fb2167180d36dd7eba23a7f9fd529ca151b7d7dcca1139f819ffde97"
+    },
+    {
+      "path": "docs/downloads/B_72_prediction_file_identities.csv",
+      "bytes": 13183,
+      "sha256": "90a09dff335ba3362b4dfb0c05d1df8d60593af1519178bbbfef4d58c194d988"
+    },
+    {
+      "path": "docs/downloads/B_nested_288_saved_conditions.csv",
+      "bytes": 135912,
+      "sha256": "93e250f982e8808fb8eacc19b0824b31753a8f1641b115f60d1e0b286efe2954"
+    },
+    {
+      "path": "docs/downloads/B_original_288_saved_conditions.csv",
+      "bytes": 141265,
+      "sha256": "117d3652ca8df7dd350cbbaecacf9ae658d740e4e111ce7d9f09c4df573ba13a"
+    },
+    {
+      "path": "docs/downloads/B_regional_baseline_summary.csv",
+      "bytes": 1007,
+      "sha256": "ad3a4874080c8b5016d9b7013935aa6811f0db2b6e7129b3930518af0d764657"
+    },
+    {
+      "path": "docs/en/index.html",
+      "bytes": 3210,
+      "sha256": "c78b50dc498a4980afd527fcad2bccc76679f9010aefb81af9c1a6cf7101e5d6"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 175,
+      "sha256": "020684ad05a5f7f8d14fa78935bdae1cce84e0a3dba0cc2ed57b22ac225c67e5"
+    },
+    {
+      "path": "docs/loaded.js",
+      "bytes": 5283,
+      "sha256": "a2536830af4c9e584a27ef69e4d00bd40199b39aae9303bad03fdc885c27801a"
+    },
+    {
+      "path": "docs/style.css",
+      "bytes": 1801,
+      "sha256": "cbdbc3983d329bfdee86aec716c64d10113c6ce35e7227c77fc760c7b9a69e06"
+    },
+    {
+      "path": "docs/views/a-en.html",
+      "bytes": 16291,
+      "sha256": "fe74f0183e62cd0512ba5c398b7a4a7a51a062673d68aed65f64d9bbd6fe18b1"
+    },
+    {
+      "path": "docs/views/a-zh.html",
+      "bytes": 16323,
+      "sha256": "959f62844559b9c4a23d4eec3b74aa12d144a0bdafde742f366d638ce4bbff47"
+    },
+    {
+      "path": "docs/views/b-en.html",
+      "bytes": 19042,
+      "sha256": "46e4ed3796ed3d2cb58005d08bc0b423d106bb81c64a4945d340f766f89d85d9"
+    },
+    {
+      "path": "docs/views/b-zh.html",
+      "bytes": 19350,
+      "sha256": "51999f813d8e7d4e24644bde0aea7295062a6524b2b5b8d2c246de1d999d16ef"
+    },
+    {
+      "path": "docs/views/baselines-en.html",
+      "bytes": 1446,
+      "sha256": "986fe018ac87d7ee7b7d77efeebd10e3d4547b4c2eab15c8a3341a927e7f3c7e"
+    },
+    {
+      "path": "docs/views/baselines-zh.html",
+      "bytes": 1401,
+      "sha256": "e78f66b5b9b97e0562a49eeb1191f9aee8ece06dfc29529e32e1ab526565b69f"
+    },
+    {
+      "path": "docs/views/loaded-en.html",
+      "bytes": 2131,
+      "sha256": "36e234d3a13bac876a70890d268fec37df73643fd8731515d50e8d4c209b7df1"
+    },
+    {
+      "path": "docs/views/loaded-zh.html",
+      "bytes": 2044,
+      "sha256": "6e179df020d00caf75a37f1cd51b64cbb0d1f1bcd5474eb7e63b3891e62448fd"
+    },
+    {
+      "path": "docs/zh/index.html",
+      "bytes": 3086,
+      "sha256": "4ce05d1d210e7ffb3dc4a06929b19bf1f06ce72ed1d53edc726c8969a5463662"
+    },
+    {
+      "path": "paper-a/README.md",
+      "bytes": 841,
+      "sha256": "4efc412acb55c73ec11dee6c5a8cbbf13e0e84fc7febda2bdaec399b45580876"
+    },
+    {
+      "path": "paper-a/citation/README.md",
+      "bytes": 157,
+      "sha256": "8ee1da5f741b3a4f442b113d9298c4fd48b934e501bdc6a59b869bfd3186173b"
+    },
+    {
+      "path": "paper-a/code/README.md",
+      "bytes": 216,
+      "sha256": "5d63370e23bd07287691bb83ce2582189eaa15fb5a501970d063ea28060b24ff"
+    },
+    {
+      "path": "paper-a/data/README.md",
+      "bytes": 275,
+      "sha256": "b6456e687fcfbe11ee11e5661a7980b12d0e07a46277d185c3af9810277eb80d"
+    },
+    {
+      "path": "paper-a/manuscript/README.md",
+      "bytes": 191,
+      "sha256": "19f53570011848dac0b1a8b9bb0ff992c378fbf20ff8acfe0bf8734757d80208"
+    },
+    {
+      "path": "paper-b/README.md",
+      "bytes": 1225,
+      "sha256": "db7b3c7e1648a7792a9ac09a05415e763129cd36682c692dd56a6d21e65d012a"
+    },
+    {
+      "path": "paper-b/citation/README.md",
+      "bytes": 157,
+      "sha256": "c5a247cfdd5fbe49afbd610c703b0dc748dedc5d8f6545c4d1157f9ea416872b"
+    },
+    {
+      "path": "paper-b/code/README.md",
+      "bytes": 206,
+      "sha256": "b4342a94d459793ade15c91dfd5cd9ab857825ef83a71c151e8ce0bce5848fb3"
+    },
+    {
+      "path": "paper-b/data/README.md",
+      "bytes": 275,
+      "sha256": "b5c8a5deebf41f27182999000d68e4c626126955440cd872aa2d7d86a9d10db7"
+    },
+    {
+      "path": "paper-b/manuscript/README.md",
+      "bytes": 191,
+      "sha256": "ea5f88d5933b1ac7adf272df9a44195c5ea2feabcd00c27c90f9de424a2878dd"
+    },
+    {
+      "path": "provenance/export-runtime.json",
+      "bytes": 326,
+      "sha256": "9f8b52a05880e9d24c9d77aa9df79c3761b7513a178e987caa9d8210eb11beb0"
+    },
+    {
+      "path": "provenance/exported-assets.json",
+      "bytes": 50856,
+      "sha256": "f5097fafb677dcaa0b2fc51489ad89c938a1b8edebd5695a5e23d2651f4126a7"
+    },
+    {
+      "path": "provenance/selection.json",
+      "bytes": 1063,
+      "sha256": "fc53e0b4b9522c4e1ce4ec723e6c95fcc710afb8d681d5fa8bddfec88d40a4ea"
+    },
+    {
+      "path": "provenance/validation.json",
+      "bytes": 349,
+      "sha256": "f37bfe20206875d79e96ac81121765be70f1fb1cb12a4c125138cba580581f00"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 779,
+      "sha256": "eac2737515cc31fefa22c51d6e879c943779cfc1510c4873068c5394cd3fe495"
+    }
+  ],
+  "data_release_scope": "selected paper display and existing result tables",
+  "repository": "googo2025/vtouch-simulation-benchmark",
+  "file_count_excluding_this_manifest": 169
+}
