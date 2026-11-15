@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VTouch Paper C | Curved tactile shell</title>
+<link rel="stylesheet" href="../study.css">
+<script type="importmap">{"imports":{"three":"../vendor/three.module.min.js"}}</script>
+</head>
+<body>
+<header class="top"><div><strong>VTouch</strong><span class="sep"></span><span data-copy="paper"></span></div><nav aria-label="Language"><a href="../en/" hreflang="en" lang="en">English</a><a href="../zh/" hreflang="zh" lang="zh-CN">中文</a></nav></header>
+<main>
+<section class="intro"><div class="eyebrow" data-copy="eyebrow"></div><h1 data-copy="title"></h1><p data-copy="subtitle"></p></section>
+<div class="grid">
+<section class="viewer panel">
+<div class="paneltop"><h2 data-copy="geometry"></h2><span class="badge" data-copy="dimensions"></span></div>
+<div class="bar"><label><span data-copy="variant"></span><select id="shell"></select></label><button type="button" id="cut" aria-pressed="true" data-copy="cut"></button><button type="button" id="reset" data-copy="reset"></button></div>
+<div class="viewport" id="viewport"><span class="guidance" data-copy="drag"></span><span id="status" role="status"></span></div>
+<div class="metadata"><span id="wall"></span><span id="inner"></span></div>
+</section>
+<section class="panel study">
+<h2 data-copy="locate"></h2><p class="sub" data-copy="locdesc"></p>
+<div class="bar"><label><span data-copy="case"></span><select id="sample"></select></label></div>
+<div class="legend"><span class="item"><i class="dot target"></i><span data-copy="truth"></span></span><span class="item"><i class="dot predicted"></i><span data-copy="baseline"></span></span><span class="item"><i class="dot routed"></i><span data-copy="routing"></span></span></div>
+<dl class="result" id="result"></dl>
+<details><summary data-copy="provenance"></summary><p id="pins" class="pins"></p></details>
+</section>
+</div>
+<section class="panel evaluation"><h2 data-copy="comparison"></h2><p class="sub" data-copy="desc"></p>
+<div class="scroll"><table><thead><tr><th scope="col" data-copy="morph"></th><th scope="col" data-copy="hits"></th><th scope="col" data-copy="falses"></th><th scope="col" data-copy="mean"></th><th scope="col" data-copy="max"></th></tr></thead><tbody id="scores"></tbody></table></div></section>
+<section class="panel figures"><h2 data-copy="ablation"></h2><img src="../assets/Fig3_matched_ablation.png" loading="lazy" alt=""><p class="sub" data-copy="ablationDesc"></p></section>
+<section class="panel figures"><details><summary>Simulation setup and camera observations</summary><img src="../assets/Fig1_simulation_and_observations.png" loading="lazy" alt="Experimental geometry and saved camera frames"></details></section>
+</main>
+<footer data-copy="footer"></footer>
+<script type="module" src="../study.js"></script>
+</body>
+</html>
