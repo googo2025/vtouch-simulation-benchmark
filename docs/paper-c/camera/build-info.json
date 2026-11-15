@@ -1,0 +1,22 @@
+{
+  "source_html_sha256": "4029addbbbd59b6ca68072925c26fe4b3c34b3ed52b789ffbe90ea794034e2d6",
+  "images": 3681,
+  "original_bytes": 971411598,
+  "webp_bytes": 233552338,
+  "resolution": [
+    1280,
+    720
+  ],
+  "display_encoding": "lossy WebP, original frames preserved in source archive",
+  "source_dirs": {
+    "meridian_xyz_v2/confirm_camera_frames_v1": 1560,
+    "meridian_xyz_v2/camera_difference_by_shape_v1": 1440,
+    "regional_morphology_combination_v1/own_shell_validation_v1/scored/images": 104,
+    "regional_morphology_combination_v1/own_shell_validation_v1/camera_difference_v2/combined": 96,
+    "regional_morphology_combination_v1/keep_apex_own_shell_validation_v1/scored/images": 104,
+    "regional_morphology_combination_v1/keep_apex_own_shell_validation_v1/scored/difference": 96,
+    "independent_contact_motion_evaluation_v1/authorized_boundary_motion_scores_v1/camera_frames": 104,
+    "independent_contact_motion_evaluation_v1/smooth_band_holdout_v1/camera_frames": 104,
+    "independent_contact_motion_evaluation_v1/authorized_boundary_motion_scores_v1/motion_camera_frames": 73
+  }
+}
